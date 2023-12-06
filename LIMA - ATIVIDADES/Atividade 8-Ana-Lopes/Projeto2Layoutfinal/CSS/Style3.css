@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+
+*{
+    padding: 0;
+    margin:0 ;
+    border:0 ;
+    box-sizing: 0;
+}
+#container{
+    width: 100%;
+    height: 990px;
+    margin: 5px;
+    display:flex ;
+}
+body{
+    font-family: Milonga;
+    width: 99.5%;
+    height: 857px;
+    background-image: linear-gradient(
+        to bottom,
+ rgb(194, 134, 250),
+ rgb(240, 112, 240),
+ rgb(123, 235, 235)
+ );
+ background-size: cover;
+ background-repeat:no-repeat ;
+}
+#Home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    width: 100.5%;
+}
+.link{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 1000px;
+    height: 30px;
+    margin-left: 100px;
+    padding-left: 40px;
+}
+img#lupa{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 1px;
+    width: 20px;
+    height: 20px;
+}
+#imgcomp{
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+#imgrisco{
+    margin-left: 70px;
+    margin-top: 5px;
+    width: 40px;
+    height: 30px;
+}
+img#Logo{
+    width: 110px;
+    height: 110px;
+    margin-left: 30px;
+}
+.inicio{
+    display: flex;
+    font-family: Milonga;
+    margin-top: 10px;
+}
+.titulo{
+    margin-left: 80px;
+    font-size: 22px;
+}
+#cor{
+    color:white;
+    font-size: 16px;
+}
+/*botaos*/
+.botaos{
+    display:flex;
+    justify-content: space-around;
+    font: size 50px;
+    padding: 20px;
+    border-style: solid;
+}
+a#botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: aqua;
+    padding: 6px;
+    border-radius: 100px;
+    width: 200px;
+    text-decoration: underline black;
+    color: black;
+    font-family: 'Times New Roman';
+
+}
+#lupa2{
+    width: 20px;
+    height: 20px;
+}
+#hr1{
+    border: solid 1px aqua;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#div1{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.categorias{
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#categoria{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#divcatalogos{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#divs2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#meiadiv{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#meiadiv1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#meiadiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.divbolsas{
+    background-color: white;
+    width: 190px;
+    height: 180px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#divbolsas0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#preco1{
+    margin-top: -12px;
+    background-color: rgb( 255, 228, 228);
+}
+#preco2{
+    margin-top: -12px;
+    background-color: rgb( 189, 205, 206);
+}
+#preco3{
+    margin-top: -12px;
+    background-color: rgb( 255, 228, 228);
+}
+#preco4{
+    margin-top: -12px;
+    background-color: rgb( 189, 205, 206);
+}
+#preco5{
+    margin-top: -12px;
+    background-color: rgb( 189, 205, 206);
+}
+#preco6{
+    margin-top: -12px;
+    background-color: rgb( 255, 228, 228);
+}
+#linhazinha{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.h01{
+    font-size: 10px;
+}
+#hr2{
+    border: solid 1px violet;
+}
+#ciir{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    background-image: linear-gradient(to bottom, yellow, rgba(67, 165, 245, 0.571));
+    position: absolute;
+    margin-left: 390px;
+    z-index: -1;
+}
+#ci{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    background-image: linear-gradient(to bottom, rgba(48, 223, 242, 0.690), rgba(162, 52, 241, 0.715));
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 230px;
+    z-index: -2;
+}
+#cc{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    background-image: linear-gradient(to bottom, yellow, rgba(67, 165, 245, 0.571));
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 300px;
+    z-index: -1;
+}
+#crc{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    background-image: linear-gradient(to bottom, rgba(48, 223, 242, 0.690), rgba(162, 52, 241, 0.715));
+    position: absolute;
+    margin-left: 900px;
+    z-index: -2;
+}
+#linhaa{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    right: 300px;
+    top: 790px;
+    font-family: 'Times New Roman';
+}
+#hr7{
+    border: solid 2px violet;
+    width: 1300px;
+    position: absolute;
+    right: 100px;
+    top: 820px;
+}
+#Login {
+    display: flex;
+}

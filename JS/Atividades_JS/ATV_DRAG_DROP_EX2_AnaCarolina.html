@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag e Drop</title>
+</head>
+<html>
+    <body>
+ 
+        <p>Drag:</p>
+    <div id="qq">
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+        <div id="esc">  
+            <p> Nome: Copacabana;</p>
+            <p> Local: Rio de Janeiro;</p>
+            <p> Conhecida por sua extensa faixa de areia branca e macia, Copacabana é uma das praias mais icônicas do mundo. 
+                <br>  A orla é marcada pelo famoso calçadão de pedras portuguesas em ondas, 
+                e ao longo da praia, há diversos quiosques, restaurantes e atividades esportivas.
+                </p>
+        </div>
+        <div id="esc2">  
+            <p>Nome: Waikiki Beach;</p>
+            <p>Local: Oahu, em Honolulu, Havaí, Estados Unidos.</p>
+            <p> Waikiki é conhecida por suas águas cristalinas e ondas suaves, tornando-a um local popular para a prática de surfe. 
+                <br>  A praia está cercada por hotéis de luxo, lojas e restaurantes. 
+                </p>
+        </div>
+        <div id="esc3">  
+            <p>Nome: Bondi Beach;</p>
+            <p>Local: Sydney, Austrália.</p>
+            <p>História: Bondi é famosa por suas ondas excelentes para o surfe e é uma das praias mais movimentadas de Sydney. 
+                <br> O Bondi Icebergs Club, com sua piscina de água salgada à beira-mar, é uma atração icônica. 
+                </p>
+        </div>
+    </div>
+        <br>
+        <img id="drag1" src="IMG/prainha.jpg" draggable="true" ondragstart="drag(event, esc)" width="180" height="300">
+        <img id="drag2" src="IMG/92797848d4505335efd17499dc5b3350.jpg" draggable="true" ondragstart="drag(event, esc2)" width="180" height="300">
+        <img id="drag3" src="IMG/beach-background-Wallpaper-12.webp" draggable="true" ondragstart="drag(event, esc3)" width="180" height="300">
+        </body>
+    <style>
+    #qq {
+        display: flex;
+    }
+    #div1 {
+        width: 185px;
+        height: 305px;
+        padding: 10px;
+        border: 1px solid #000000;
+        display: flex;
+    }
+    #esc {
+        display: none;
+ 
+    }
+    #esc2 {
+        display: none;
+ 
+    }
+    #esc3 {
+        display: none;
+ 
+    }
+    </style>
+    <script>
+        function allowDrop(rr) {
+        rr.preventDefault();
+    }
+ 
+        function drag(rr, esc, esc2, esc3) {
+        rr.dataTransfer.setData("text", rr.target.id);
+        esc.style.display = 'block';
+        esc2.style.display = 'block';
+        esc3.style.display = 'block';
+ 
+    }
+ 
+        function drop(rr) {
+        rr.preventDefault();
+        var data = rr.dataTransfer.getData("text");
+        rr.target.appendChild(document.getElementById(data));
+    }
+ 
+    </script>
+ 
+</html>

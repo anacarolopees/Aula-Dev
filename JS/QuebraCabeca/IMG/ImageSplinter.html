@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+   
+    <title>Document</title>
+    <style>
+        *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+.kanban{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:800px;
+}
+.bloco{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.item{
+    background-color: rgb(235, 205, 205);
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.dragging{
+    opacity: 0.5;
+}
+
+.hover{
+    background-color: black;
+    transition: 1s;
+    opacity: 1; //estava com 0.1
+    border: 20px solid black;
+}
+h1{
+    text-align: center;
+}
+
+.bloco{
+    border: 2px solid black;
+}
+    </style>
+  </head>
+  <body>
+    
+    <div class="form">
+      <h1>Quebra cabeça!</h1>
+      <button style="display: inline; margin-left: 10px; border-radius: 20px; background-color: lightblue; color:white; font-family: 'poppins'; width:200px; font-size:20px; height:30px" onclick="sortearImagem()">Embaralhar!</button>
+    </div>
+    <div class="kanban">
+      <div class="bloco">
+        <div class="coluna b1">
+          <img id="parte1" class="item" draggable="true"></img>
+        </div>
+      </div>
+      <div class="bloco">
+        <div class="coluna b2">
+          <img id="parte2" class="item" draggable="true"></img>
+        </div>
+      </div>
+      <div class="bloco">
+        <div class="coluna b3">
+          <img id="parte3" class="item" draggable="true"></img>
+        </div>
+      </div>
+      <div class="bloco">
+        <div class="coluna b1">
+          <img id="parte4" class="item" draggable="true"></img>
+        </div>
+      </div>
+      <div class="bloco">
+        <div class="coluna b2">
+          <img id="parte5" class="item" draggable="true"></img>
+        </div>
+      </div>
+      <div class="bloco">
+        <div class="coluna b3">
+          <img id="parte6" class="item" draggable="true"></img>
+        </div>
+      </div>
+      <div class="bloco">
+        <div class="coluna b1">
+          <img id="parte7" class="item" draggable="true"></img>
+        </div>
+      </div>
+      <div class="bloco">
+        <div class="coluna b2">
+          <img id="parte8" class="item" draggable="true"></img>
+        </div>
+      </div>
+      <div class="bloco">
+        <div class="coluna b3">
+          <img id="parte9" class="item" draggable="true"></img>
+        </div>
+      </div>
+    </div>
+   <script src="script.js" defer></script>
+  </body>
+</html>

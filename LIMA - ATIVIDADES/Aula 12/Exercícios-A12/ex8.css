@@ -1,0 +1,33 @@
+#forms{
+    border: solid 1px;
+}
+#form{
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    border: solid 1px;
+    height: 600px;
+}
+ul{
+    line-height: 2px;
+    position: relative;
+    left: 52%;
+    bottom: 250px;
+}
+#botton1{
+    background-color: green;
+}
+#botton1:hover{
+    background-color: blue;
+}
+#botton2{
+    background-color: red;
+}
+#botton2:hover{
+    background-color: blue;
+}
+#grupo{
+    position: relative;
+    left: 46.5%;
+    bottom: 200px;
+}

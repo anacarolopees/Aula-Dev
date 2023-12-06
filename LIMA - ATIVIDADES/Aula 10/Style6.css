@@ -1,0 +1,26 @@
+p { font: size 12pt;}
+p::first-line {color:blueviolet; font-variant:small-caps}
+
+
+.paragrafo::after {
+      display: inline;
+      content: url(pato.gif);
+}
+.paragrafoo {
+    position: relative;
+    left: 400px ;
+    bottom:50px ;
+}
+
+h1::selection {color:red;background:blue;
+}
+
+div{
+    background-image: url("pato.gif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    
+}
+h1.center{text-align: center;}
+.right {text-align: right;}
+.left {background-color:blueviolet}

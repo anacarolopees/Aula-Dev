@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Produto</title>
+</head>
+<body>
+    <label for="produtos">Selecione um produto</label>
+    <select id="produtos" aria-label="selecione um produto">
+        <option value="1">Notebook</option>
+        <option value="2">Celular</option>
+        <option value="3">Som</option>
+
+    </select>
+    <p id="descricao-produto">Descrição do produto: <span id="descricao-selecionada"><a></a></span></p>
+<style>
+    [aria-label]{
+        border:2px solid rgb(255, 0, 225);
+    }
+</style>
+<script>
+
+    selectProdutos(){
+
+    }
+    selectProdutos.addEventListener("change", ()=>){
+        const produtoSelecionado = selectProdutos.value;
+        const descricao = descricaoProdutos[produtoSelecionado];
+        descricaoSelecionado.textContent = descricao;
+
+    }
+
+
+</script>
+
+
+
+</body>
+</html>

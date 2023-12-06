@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@900&family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2900px;
+}
+/* Cabeçalho */
+.cabecalho{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.pesquisa{
+    border: 1px solid black;
+    width: 180px;
+    height: 35px;
+    padding-left: 50px;
+    margin-left: 70px;
+    font-family:Cormorant Garamond ;
+}
+.lupa{
+    position: absolute;
+    right: 590px;
+    top: 52px;
+    width: 15px;
+}
+.logo1 {
+    position: relative;
+    right: 50px;
+    margin-top: 15px;
+    width: 100px;
+}
+.arruma {
+    display: flex;
+    align-items: center;
+    margin-left: 380px;
+}
+.dropbtn{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 254, 254);
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    width: 220px;
+    height: 85px;
+    font-family: Barlow Semi Condensed;
+    font-weight: 900;
+    font-style: bold;
+}
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+.dropdown-content {
+    position: absolute;
+    display: none;
+    background-color: rgb(0, 0, 0);
+    min-width: 240px;
+    z-index: 1;
+    text-align: center;
+    font-family: Cormorant Garamond Black;
+    font-weight: 800;
+ 
+}
+.dropdown-content a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.dropdown:hover .dropbtn {
+    display: block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+#insta {
+    position: relative;
+    left: 170px;
+
+}
+#link {
+    position: relative;
+    left: 170px;
+    margin-left: 5px;
+}
+.menus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.fundo{
+    width: 100%;
+    height: 800px;
+    background-image: url(img/IMG_3215.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fileira {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+p{
+    font-family: Barlow Semi Condensed;
+    color: rgba(255, 255, 255, 0.977);
+}
+.im:hover {
+    width: 330px;
+    height:400px ; 
+    transition-duration: 500ms;
+}
+.produto {
+    text-align: center;
+}
+.Dropdown-content {
+    position: absolute;
+    display: none;
+    background-color: rgb(255, 255, 255);
+    min-width: 240px;
+    z-index: 1;
+    text-align: center;
+    font-family: Cormorant Garamond Black;
+    font-weight: 800;
+ 
+}
+.Dropdown-content a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.Dropdown-content a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.Dropdown:hover .Dropbtn {
+    display: block;
+}
+.Dropdown:hover .Dropdown-content{
+    display: block;
+}
+.Logo2 {
+    width: 50px;
+    margin-left: 140px;
+    height: 70px ;
+
+}
+.arrumador {
+    display: flex;
+
+}
+.bfs {
+    width: 120px;
+    height: 120px;
+    align-self: center;
+    margin-top:20px ;
+}
+.menuzin {
+flex-direction: column;
+height: 700px;
+background: linear-gradient (rgba(106,95,95,0.48792016806722693) 45%, rgba(157,140,140,1) 100%);
+opacity: calc(0,5);
+width: 130px;
+}
+.immmg{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    height: 530px;
+    margin-left: 175px;
+}
+.oooi{
+    align-items: center;
+}
+.Dropdownn-content a{
+    display:flex;
+    font-family: Barlow Semi Condensed;
+    justify-content: center;
+    font-size: 18px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.blaze a{
+    font-family: Barlow Semi Condensed; 
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 800px;
+    font-size:x-large;
+}
+.immmmg{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 70px;
+    margin-left: 10px;
+}
+.nike a{
+    font-family: Barlow Semi Condensed; 
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+    font-size: larger;
+}
+.niike{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+
+}
+.politi a{
+    font-family: Barlow Semi Condensed; 
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.camerrrra{
+    font-family: Barlow Semi Condensed; 
+    color: rgb(255, 255, 255);
+}

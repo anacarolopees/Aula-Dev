@@ -1,0 +1,104 @@
+/*menu 1*/
+.vertical-menu{
+    position: relative;
+    left: 25px;
+    top:15px;
+    width: 200px;
+    text-align: center;
+    
+}
+
+.vertical-menu a{
+background-color: rgb(203, 221, 255);
+color: black;
+display: block;
+padding: 12px;
+text-decoration: none;
+text-align: center;
+
+
+}
+
+.vertical-menu a:hover {
+    background-color: azure;
+    text-align: center;
+
+}
+
+.vertical-menu a.active{
+    background-color: lightpink;
+    color: whitesmoke;
+    text-align: center;
+
+}
+/*menu 2*/
+.dropbtn{
+    background-color:lightpink ;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: px;
+    border: none;
+    text-align: center;
+    
+
+    
+}
+.dropdown{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: bisque;
+    min-width: 150px;
+    box-shadow: 0px 0px 16px 0px rgba(rgb(237, 156, 156), rgb(180, 220, 180), rgb(200, 200, 255), alpha);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+
+}
+.dropdown-content a :hover{
+    background-color: plum;
+}
+.dropbtn:hover .dropbtn{
+    background-color: lightseagreen;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.amarelo{
+    height: 200px;
+    width: 250px;
+    background-color: yellow;
+}
+.azul{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    position: relative;
+    right: -1320px;
+    top: -200px;
+}
+.img{
+    position: relative;
+    padding-left: 500px;
+    margin-top: -200px;
+}
+.texto1{
+    position: relative;
+    left: 150px;
+    top: -150px;
+}
+.texto2{
+    position: relative;
+    left: 1200px;
+    top: -200px;
+}

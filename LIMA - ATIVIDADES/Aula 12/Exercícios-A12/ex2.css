@@ -1,0 +1,29 @@
+body{
+    background-color: #c1ac99;
+}
+.titulo{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.img{
+    position: relative;
+    left: 50px;
+    
+}
+.texto{
+    color: white;
+    border: double 10px white;
+    width: 500px;
+    height: 400px;
+    font: 200% small;
+    position: relative;
+    left: 800px;
+    top: -175px
+}
+.paragrafo{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    border: none;
+}

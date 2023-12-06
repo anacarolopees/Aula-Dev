@@ -1,0 +1,9 @@
+div.caixaum{
+   background-color: aquamarine; 
+   width:400px;
+   padding:200px;
+   border:15px double rgb(128, 0, 107);
+   margin:45px;
+   text-align:justify;
+   text-indent:1,25 cm;
+}

@@ -1,0 +1,21 @@
+.titulo{
+    text-align: center;
+}
+.texto{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.caixa{
+    border: solid;
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 60%;
+    left: 10%;
+}
+.paragrafo{
+    margin-top: 18%;
+}

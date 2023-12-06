@@ -1,0 +1,56 @@
+.vermelho{
+    border: solid;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.azul{
+    border: solid;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    left: 1400px;
+    bottom: 108px;
+}
+.verde{
+    border: solid;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    top: 400px;
+}
+.amarelo{
+    border: solid;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    top: 290px;
+    left: 1400px;
+}
+.texto1{
+    color: white;
+    text-align:center;
+    margin-right: 30px;
+    margin-left: 25px;
+}
+.texto2{
+    color: white;
+    text-align:center;
+    margin-right: 30px;
+    margin-left: 25px;
+}
+.texto3{
+    color: white;
+    text-align:center;
+    margin-right: 30px;
+    margin-left: 25px;
+}
+.texto4{
+    color: white;
+    text-align:center;
+    margin-right: 30px;
+    margin-left: 25px;
+}

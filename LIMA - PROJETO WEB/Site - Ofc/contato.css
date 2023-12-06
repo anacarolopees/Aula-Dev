@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@900&family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+
+body{ 
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(78deg, rgb(206, 206, 206) 29%, rgb(144, 143, 143) 100%);
+}
+
+
+.header{
+    background-color: rgb(251, 215, 237);
+    width: 93.3%;
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+    padding: 50px;
+    font-size: 23px;
+    font-family: Barlow Semi Condensed;
+}
+
+a{
+    text-decoration: none;
+    color: #708090;
+}
+
+a:hover{
+    color: hotpink;
+}
+
+img#logo{
+    width: 250px;
+    height: 150px;    
+    margin-top: -61px;  
+    margin-left: 75px;  
+}
+
+
+.search{ 
+    background-color: rgb(251, 215, 237);
+   border-bottom: 2px solid slategray;
+    height:  30px;
+    width: 1000px;
+    color: gray;
+    font-family: Cormorant Garamond;
+    font-size: 17px;
+}
+li  {
+    list-style-type: none;
+}
+
+
+li a, .dropbtn{
+    display: inline-block;
+    color: #708090;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    top: 40px;
+    
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+    background-color: rgb(227, 227, 227)X;
+}
+
+li .dropdown{
+    display:inline-block;
+    position: absolute;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(225, 225, 225);
+    min-width: 150px;
+    z-index: 1; 
+    top: 95px;
+    left:450px;
+}
+
+.dropdown-content a{
+    color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;       
+
+}
+
+.dropdown-content a:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.lupa{
+    margin-left: -120px;
+    height: 20px;
+    width: 20px;
+}
+  
+.carrinho{
+    height: 25px;
+    width: 25px;
+}
+
+.carrinho:hover{
+    color: hotpink;
+}
+
+.outlet{
+    font-size: 50px;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content:first baseline;
+    padding: 40px;
+    margin-left: 200    px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.vitrine{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    gap: 50px;
+}
+
+.vitrine1{
+    display: flex;
+    flex-direction: row;    
+    margin-left: 200px;
+    gap: 50px;
+}
+
+img#p1{
+    width: 250px;
+    height: 400px;
+
+}
+
+.prod{
+
+    width: 250px;
+    height: 450px;
+    box-sizing: border-box;
+    border: solid 1px rgb(255, 255, 255);
+}
+
+.oferta{
+    color: hotpink;
+    border: solid 2px  rgb(251, 215, 237);;
+    position: absolute;
+    background-color:  rgb(251, 215, 237);;
+
+}
+.preco{
+
+    font-size: 20px;
+}
+
+p#traco{
+    margin-left: 60px;
+        text-decoration: line-through;
+}
+.precos{
+    display: flex;
+    gap: 20px;
+}
+
+.rodape{
+    background-color: rgb(251, 215, 237);
+    height: 150px;
+  }
+
+.linha{
+    margin-top: 50px;
+    border-bottom:2px #016eda;
+    border-style: solid;
+}
+
+.icons{
+    width: 100px;
+    height: auto;
+}
+
+.vitrine2{
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+    padding: 20px;
+}
+
+.txt3{
+    font-family: Cormorant Garamond;
+    font-size: 20px;
+    margin-top: 40px;
+    color:#708090
+}
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #d1, #d2 {
+          float: left;
+          width: 200px;
+          height: 70px;
+          margin: 10px;
+          padding: 10px;
+          border: 3px solid black;
+        }
+        #image{
+            height: 70px;
+            width: 100px;
+        }
+        </style>
+        <!-- Definição de scripts usando a tag script -->
+        <script>
+        // Função que impede o comportamento padrão do navegador durante a operação de arrastar
+        function allowDrop(dd) {
+          dd.preventDefault();
+        }
+        // Função chamada quando um item é iniciado para ser arrastado
+        function drag(dd) {
+            // Define os dados que serão transferidos durante a operação de arrastar
+          dd.dataTransfer.setData("text", dd.target.id);
+        }
+        // Função chamada quando um item é solto em uma área de soltar
+        function drop(dd) {
+            // Impede o comportamento padrão do navegador
+          dd.preventDefault();
+          // Obtém os dados transferidos durante a operação de arrastar
+          var data = dd.dataTransfer.getData("text");
+          // Adiciona o item arrastado à área de soltar
+          dd.target.appendChild(document.getElementById(data));
+        }
+        </script>
+        </head>
+        <body>
+       
+        <h1>Drag e Drop - Exemplo2</h1>
+       
+        <div id="d1" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <img src="IMG/2.jpg" draggable="true" ondragstart="drag(event)" id="image" width="88" height="31">
+        </div>
+       
+        <div id="d2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+       
+   
+</body>
+</html>

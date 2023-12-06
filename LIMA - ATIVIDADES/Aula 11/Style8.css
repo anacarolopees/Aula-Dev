@@ -1,0 +1,27 @@
+.vertical-menu{
+    width: 200px;
+    text-align: center;
+}
+
+.vertical-menu a{
+background-color: rgb(203, 221, 255);
+color: black;
+display: block;
+padding: 12px;
+text-decoration: none;
+text-align: center;
+
+}
+
+.vertical-menu a:hover {
+    background-color: azure;
+    text-align: center;
+
+}
+
+.vertical-menu a.active{
+    background-color: lightpink;
+    color: whitesmoke;
+    text-align: center;
+
+}

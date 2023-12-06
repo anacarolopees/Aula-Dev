@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botafofo Futebol Clube</title>
+    <link rel="stylesheet" type="text/css" href="menu.css">
+    <link rel="icon" type="imagem/png" href="img/download (1).png"/>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <div class="cabecalho">
+        <div class="arruma">
+    <a href="http://127.0.0.1:5500/Site%20-%20Ofc/menu.html"> <img src="img/download (1).png" class="logo1"></a>
+            <input type="text" placeholder="Pesquisar" class="pesquisa">
+            <img src="img/lupa.png" class="lupa" >
+            <a href="https://www.instagram.com/botafofo_fc/" target="_blank"><img src="img/insta.png" width="15" id="insta"></a>
+    
+            <a href="mailto:anacarolopes.dev@gmail.com" target="_blank"> <img src="img/correspondencia (2).png" width="20" id="link"> </a>
+        </div>
+    <div class="menus">
+    <!-- Div de menu -->
+    <div class="dropdown">
+    <button class="dropbtn">ELENCO</button>
+    
+    <!-- Div dos links -->
+    <div class="dropdown-content">
+    <a href="http://127.0.0.1:5500/Site/elenco.html#"> Nosso Time </a>
+    </div>
+    </div>
+
+    <!-- Div de menu -->
+    <div class="dropdown">
+    <button class="dropbtn">PARTIDAS</button>
+
+    <!-- Div dos links -->
+    <div class="dropdown-content">
+    <a href="#"> Temporada 2023 </a>
+    <a href="#"> Calendário </a> 
+    </div>
+    </div>
+
+    <!-- Div de menu -->
+    <div class="dropdown">
+    <button class="dropbtn"> HISTÓRIA </button>
+
+    <!-- Div dos links -->
+    <div class="dropdown-content">
+    <a href="#"> Criação do Clube </a>
+    </div>
+    </div>
+
+    <!-- Div de menu -->
+    <div class="dropdown">
+    <button class="dropbtn">CATÁLOGO</button>
+    
+    <!-- Div dos links -->
+    <div class="dropdown-content">
+    <a href="#"> Uniforme de jogo </a>
+    <a href="#">  Linha torcedor </a>
+    </div>
+    </div>
+   
+</div>
+    </div>
+<div class="fundo">
+
+</div>
+<div class="fileira">
+    <div class="produto">
+    <img src="img/Design sem nome (8).png" width="290" height="291" class="im">
+    <p>SHORTS GOLEIRO</p>  
+    <p>R$40,00</p>  
+    </div>
+    <div class="produto">
+    <img src="img/Design sem nome (9).png" width="290" height="291" class="im">
+    <p>CAMISETA UNIFORME GOLEIRO</p>  
+    <p>R$65,00</p> 
+    </div>
+    <div class="produto">
+    <img src="img/Design sem nome (10).png" width="290" height="291" class="im">
+    <p>CAMISETA UNIFORME </p>  
+    <p>R$65,00</p> 
+    </div>
+    <div class="produto">
+    <img src="img/Design sem nome (11).png" width="290" height="291" class="im">
+    <p>CAMISETA TORCEDOR</p>  
+    <p>R$65,00</p> 
+    </div>
+    </div>
+    <div class="titulo2"> <p id="sobrenos"> Contato! </p> <br>  
+        <form> 
+        <fieldset class="grupo">
+        <!-- Início do formulário -->
+        <form>
+    
+    <fieldset class="grupo">
+    <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+    <div class="campo">
+    <label for="nome"><strong>Nome:</strong></label> <br> 
+    <input type="text" name="nome" id="nome" required>
+    </div>
+
+    <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+    <div class="campo">
+    <label for="sobrenome"><strong>Sobrenome:</strong></label> <br>
+    <input type="text" name="sobrenome" id="sobrenome" required>
+    </div>
+    </fieldset> 
+
+    <!-- Campo de email com-->
+    <div class="campo3">
+    <label for="email"><strong>Email: </strong></label> <br>
+    <input type="email" name="email" id="email" required>
+    </div>
+
+    <!-- Caixa de texto -->
+    <div class="campo">
+    <br>
+    <label for="experiencia"><strong> Mande sua mensagem:<br>  </strong></label>
+    <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+    </div>
+
+    <!-- Botão para enviar o formulário -->
+    <button class="botao" type="submit" onsubmit="">Concluído</button>            
+
+    </form>
+    <br> <br>
+    <br> <br>
+    <br> <br>
+    <div class="oooi">
+    <div class="Dropdownn-content">
+        <a>O TIME DO AMOR!</a>
+    </div>
+    <div class="blaze">    
+        <a>PATROCINADOR MASTER</a>
+    </div>
+    <div class="immmmg">
+        <img src="img/blaaze.png">   
+    </div>
+    <div class="nike">    
+        <a>PATROCINADORES</a>
+    </div>
+    <div class="niike">
+        <img src="img/niike.png">   
+        <img src="img/ummbro.png">
+        <img src="img/brma.png">
+        <img src="img/philc.png">   
+        <img src="img/claro.png">   
+
+
+    </div>  
+    <div class="camerrrra">
+        <video id="videoElement" width="400" height="300"></video>
+        <button onclick="startCamera()">Começar</button>
+        <button onclick="stopCamera()">Parar</button>
+    </div>  
+<div class="politi">
+<a>© BOTAFOFO FUTEBOL CLUBE - TERMOS DE USO E POLÍTICA DE PRIVACIDADE </a> 
+</div>
+</div>
+
+<script>
+    let videoStream;
+    async function startCamera(){
+       const videoElement = document.getElementById('videoElement');
+       try{
+           videoStream = await navigator.mediaDevices.getUserMedia({video : true});
+           videoElement.srcObject = videoStream;
+       }catch(error){
+           console.error('Erro ao abrir a camera', erro);
+           alert('Erro ao abrir a camera');
+       }
+    }
+    async function stopCamera(){
+       const videoElement = document.getElementById('videoElement');
+       if(videoStream){
+           const tracks = videoStream.getTracks();
+           tracks.forEach(track => track.stop());
+               videoElement.srcObject = null;
+           }
+       }
+   
+    
+   </script>
+</body>
+
+    

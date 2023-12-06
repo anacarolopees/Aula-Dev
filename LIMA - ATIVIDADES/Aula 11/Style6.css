@@ -1,0 +1,19 @@
+h1.removed{display: none; border: 2px solid red;}
+h2.hidden{visibility: hidden;border: 2px solid blue;}
+
+li{ display: inline;} /*li versão inline*/
+
+
+/*span versão em bloco */ span {display: block;
+border: 5px solid rebeccapurple;
+background: lightcoral;} 
+.img {
+    height: 200px;
+    width: 200px;
+    opacity: 0.4;
+}
+.img:hover {
+    height: 200px;
+    width: 200px;
+    opacity: 1.0;
+}

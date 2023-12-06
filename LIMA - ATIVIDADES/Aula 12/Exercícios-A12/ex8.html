@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 8</title>
+    <link rel="stylesheet" type="text/css" href="ex8.css">
+</head>
+<body>
+    <div id="forms">Form name</div>
+    <div id="form">
+        <form name=“Form1” action=“testeform.txt“ method="get" target="_blank">
+            Nome: <input type="text" name="fname"><br>
+            Data de nascimento: <input type="datetime" name="fname"><br>
+            Endereço: <input type="text" name="fname"><br>
+            Nro: <input type="text" name="fname"><br>
+            Cidade: <input type="text" name="fname"><br>
+            Estado: <select name="estados">
+                        <option value="RJ">RJ</option>
+                        <option value="SP">SP</option>
+                        <option value="PA">PA</option>
+                    </select> <br>
+            Sexo:   <select name="sexo">
+                        <option value="feminino">Feminino</option>
+                        <option value="masculino">Masculino</option>
+                    </select> <br>     
+            Bens pessoais: 
+        </form>
+    </div>
+    <ul><input type="checkbox" name="bens" value="casa" checked>Casa<br>
+        <input type="checkbox" name="bens" value="carro">Carro<br>
+        <input type="checkbox" name="bens" value="moto">Moto<br>
+    </ul>
+    <div id="grupo">
+        <input type="submit" value="enviar" id="botton1">
+        <input type="reset" id="botton2">
+    </div>
+</body>
+</html>

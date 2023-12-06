@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+
+*{
+    padding: 0;
+    margin:0 ;
+    border:0 ;
+    box-sizing: 0;
+}
+#container{
+    width: 100%;
+    height: 990px;
+    margin: 5px;
+    display:flex ;
+}
+body{
+    font-family: Milonga;
+    width: 99.5%;
+    height: 857px;
+    background-image: linear-gradient(
+        to bottom,
+ rgb(194, 134, 250),
+ rgb(240, 112, 240),
+ rgb(123, 235, 235)
+ );
+ background-size: cover;
+ background-repeat:no-repeat ;
+}
+#Home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    width: 100.5%;
+}
+.link{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 1000px;
+    height: 30px;
+    margin-left: 100px;
+    padding-left: 40px;
+}
+img#lupa{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 1px;
+    width: 20px;
+    height: 20px;
+}
+#imgcomp{
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+#imgrisco{
+    margin-left: 70px;
+    margin-top: 5px;
+    width: 40px;
+    height: 30px;
+}
+img#Logo{
+    width: 110px;
+    height: 110px;
+    margin-left: 30px;
+}
+.inicio{
+    display: flex;
+    font-family: Milonga;
+    margin-top: 10px;
+}
+.titulo{
+    margin-left: 80px;
+    font-size: 22px;
+}
+#cor{
+    color:white;
+    font-size: 16px;
+}
+/*botaos*/
+.botaos{
+    display:flex;
+    justify-content: space-around;
+    font: size 50px;
+    padding: 20px;
+    border-style: solid;
+}
+a#botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: aqua;
+    padding: 6px;
+    border-radius: 100px;
+    width: 200px;
+    text-decoration: underline black;
+    color: black;
+    font-family: 'Times New Roman';
+
+}
+#lupa2{
+    width: 20px;
+    height: 20px;
+}
+#hr1{
+    border: solid 1px aqua;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.divbolsas{
+    background-color: white;
+    width: 150px;
+    height: 180px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#divbolsas0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#preco{
+    margin-top: -12px;
+    background-color: rgb( 255, 228, 228);
+}
+#vendidos{
+    border-radius: 50px;
+    background-color: rgb(255, 228, 228);
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#mochilas{
+    border-radius: 50px;
+    background-color: rgb(255, 228, 228);
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#pt2{
+    width: 47%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#promocoes{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#meiadiv1{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.h12{
+    font-size: 20px;
+}
+.bolsa{
+    width: 60%;
+    text-align: center;
+}
+#linhazinha{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.h01{
+    font-size: 10px;
+}
+#hr2{
+    border: solid 1px violet;
+}
+#star1 {
+    margin: 100px;
+    position: absolute;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid lightgreen;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+    margin-left: 225px;
+    margin-top: 200px;
+    z-index: -2;
+}
+#star1:before {
+    border-bottom: 80px solid lightgreen;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+    z-index: -2;
+}
+#star1:after {
+    position: absolute;
+    display: block;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid lightgreen;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content:'';
+    z-index: -2;
+}
+#star2 {
+    margin: 100px;
+    position: absolute;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid lightgreen;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+    margin-left: 1000px;
+    margin-top: 200px;
+    z-index: -2;
+}
+#star2:before {
+    border-bottom: 80px solid lightgreen;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+    z-index: -2;
+}
+#star2:after {
+    position: absolute;
+    display: block;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid lightgreen;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content:'';
+    z-index: -2;
+}
+#linhaa{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    right: 300px;
+    top: 790px;
+    font-family: 'Times New Roman';
+}
+#hr7{
+    border: solid 2px violet;
+    width: 1300px;
+    position: absolute;
+    right: 100px;
+    top: 820px;
+}

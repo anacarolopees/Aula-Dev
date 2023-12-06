@@ -1,0 +1,55 @@
+body{
+    background-color: aqua;
+}
+.div{
+    width: 99vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contagem{
+    font-size: 20px;
+}
+.img{
+    margin-top: 20px;
+    width: 350px;
+}
+
+@media (min-width:600px){
+    #contagem{
+        font-size: 25px;
+    }
+    body{
+        background-color: rgb(174, 216, 174);
+    }
+}
+@media (min-width:900px){
+    #contagem{
+        font-size: 30px;
+    }
+    body{
+        background-color: rgb(19, 180, 35);
+    }
+}
+@media (min-width:1200px){
+    #contagem{
+        font-size: 40px;
+    }
+    body{
+        background-color: rgb(200, 181, 181);
+    }
+    .img{
+        width: 400px;
+    }
+}
+@media (min-width:1500px){
+    #contagem{
+        font-size: 50px;
+    }
+    body{
+        background-color: rgb(232, 157, 76);
+    }
+}
+

@@ -1,0 +1,21 @@
+img.esquerda{
+    float:left;
+    margin-right: 1.5cm;
+}
+
+img.direita{
+    float:right;
+    margin-left: 1.5cm;
+}
+h1.titulo {
+    clear:both;
+    text-align: center;
+}
+p.paragrafo{
+    text-align: right;
+}
+img.center{
+    float:center;
+    margin-bottom: 1.5cm;
+}
+

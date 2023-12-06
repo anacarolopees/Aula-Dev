@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+.titulo{
+    text-align: center;
+    color: gold;
+}
+.titulo1{
+    text-align: center;
+    color: gold;
+    position: relative;
+    bottom: 800px;
+}
+.poster{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.img1{
+    position: relative;
+    right: 20%;
+}
+.img2{
+    position: relative;
+    right: 10%;
+    bottom: 200px;
+}
+.img3{
+    position: relative;
+    right: 0;
+    bottom: 405px;
+}
+.img4{
+    position: relative;
+    right: -10%;
+    bottom: 610px;
+}
+.img5{
+    position: relative;
+    right: -20%;
+    bottom: 815px;
+}
+.video{
+    height: 300px;
+    width: 600px;
+    position: relative;
+    left: 30%;
+    bottom: 800px;
+    border: solid white;
+}

@@ -1,0 +1,9 @@
+body{
+    background-image: url(cinema.avif);
+    background-size: cover;
+}
+.texto{
+    position: relative;
+    left:45%;
+    color: white;
+}
